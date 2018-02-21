@@ -5,6 +5,8 @@ import { Subject } from 'rxjs/Subject';
 import { NgwWowConfig } from '../models/index';
 import { WindowService } from './window.service';
 
+import { WOW } from 'wowjs/dist/wow.min';
+
 /**
  * Basic type to represent the `WOW` object from `WOW.js` library.
  */
